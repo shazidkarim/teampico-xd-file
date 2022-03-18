@@ -1,0 +1,100 @@
+@media(max-width: 991px){
+    .bannar h1 {
+        font-size: 60px;
+    }
+    .testi_img img {
+        height: 40px;
+        width: 40px !important;        
+        margin-right: 12px;
+    }
+    .testi_img h2 {
+        font-size: 12px;
+    }
+    .testimonial_content p {
+        margin-top: 10px;
+        font-size: 16px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+    .testimonial .owl-carousel, .owl-carousel .owl-item {
+        -webkit-tap-highlight-color: transparent;
+        position: relative;
+        padding: 4px !important;
+    }
+    .about_content h1 {
+        font-size: 25px;
+    }
+    .btn-explore {
+        margin-top: 10px;
+    }
+    .counter_part h1 {
+        height: 150px;
+        width: 150px;
+        font-size: 18px;
+        padding: 26px 0px;
+        
+    }
+    .talk_title h1 {
+        font-size: 25px;
+    }
+    .counter_part {
+        padding: 30px 0px;
+    }
+}
+@media(max-width: 767px){
+    .bannar h1 {
+        font-size: 50px !important;
+    }
+    .center_left p {
+        margin-top: 30px;
+        padding: 0px 10px;
+    }
+    .project_gallary form button {
+        font-size: 13px;
+        font-weight: 600;
+    }
+
+    .mail {
+        margin-top: 25px;
+    }
+}
+@media(max-width: 575px){
+    .bannar h1 {
+        font-size: 40px !important;
+    }
+    header p {
+        font-size: 16px;
+    }
+    .center_left {
+        margin: 0px 10px;
+    }
+    .center_left p {
+        padding: 0px;
+    }
+}
+@media(max-width : 540px) and (min-width:576px){
+    .center_left h1 {
+        font-size: 16px !important;
+        margin-top: 30px;
+        text-transform: capitalize;
+    }
+}
+@media(max-width: 475px){
+    .center_left {
+        opacity: 1;
+    }
+}
+@media(max-width: 280px){
+    .btn-projects {
+        margin-top: 10px;
+    }
+    .project_gallary form button {
+        padding: 0px;
+    }
+    .project_gallary form button {
+        margin-right: 20px;
+    }
+}
